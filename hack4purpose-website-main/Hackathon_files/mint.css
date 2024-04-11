@@ -1,0 +1,198 @@
+/*
+
+Style : Mint Theme CSS
+Version : 1.0
+Author  : Surjith S M
+URI   : http://themeforest.net/user/surjithctly
+
+Copyright © All rights Reserved
+Surjith S M / @surjithctly
+
+*/
+/* 
+   COLOR PALLETTES : Mint
+   ------------------------------------------------
+  
+   Mint 1         : #046307;
+   Dark Grey      : #3b3b3b;
+   Medium Grey    : #5c5c5c;
+   Light Grey     : #818181;
+   Lightest Grey  : #C2C2C2;
+   White          : #ffffff;
+
+   
+   */
+/* ================================================
+   THEME SPECIFIC STYLES : VISUAL STYLES ONLY
+   ================================================ */
+/*White bg*/
+
+body,
+.pace .pace-progress {
+  background: #fff;
+}
+/*Grey*/
+
+body,
+.timeline-content h2 {
+  color: #5c5c5c;
+}
+
+.nav-pills > li > a {
+  color: #c2c2c2;
+}
+
+.form-control:focus {
+  border-color: #c2c2c2;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #818181;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #c2c2c2;
+}
+/* Mint
+ * ----- */
+
+::-moz-selection {
+  background: #046307;
+  color: #fff;
+}
+
+::selection {
+  background: #046307;
+  color: #fff;
+}
+
+.header,
+.sub-header {
+  color: #fff;
+  background-image: url('../Hackathon_files/Posterfinal.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+}
+/*color*/
+@media screen and (max-width: 655px) {
+  .header {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 30vh;
+    background-color: #f1f1f1;
+    background-image: url('../Hackathon_files/Posterfinal.jpg');
+  }
+  .join-ptb-70 {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+}
+@media screen and (min-width: 700x) {
+  .header {
+    background-color: #f1f1f1;
+    margin-top: 155px;
+    height: 75vh;
+  }
+  .join-ptb-70 {
+    padding-top: 0px;
+    padding-bottom: 70px;
+  }
+}
+a,
+a:hover,
+a:focus,
+.speaker-info p,
+.highlighted-plan .price,
+.highlighted-plan .plan-name {
+  color: #046307;
+}
+
+.benefit-item .benefit-icon i {
+  color: #046307;
+}
+/*background*/
+
+.timeline::before {
+  background: #046307;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #046307;
+}
+/*border*/
+
+.timeline-bullet,
+.highlighted-plan {
+  border-color: #046307;
+}
+/*background color*/
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #046307;
+}
+/* 
+  BUTTONS
+  ------- */
+
+.btn-default {
+  color: #046307;
+  border-color: #fff;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #5c5c5c;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #3b3b3b;
+}
+
+.btn-success {
+  background-color: #046307;
+  border-color: #046307;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active {
+  background-color: #fff;
+  border-color: #046307;
+  color: #046307;
+}
+
+.btn-outline {
+  color: #8c8c8c;
+  border-color: #cacaca;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  background-color: transparent;
+  border-color: #818181;
+  color: #8c8c8c;
+}
